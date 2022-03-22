@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+
+    /* Colors: */
+
+    --primary-color: #031952;
+    --primary-font-color: white;
+    --primary-countdown-color: #69AD00;
+    --secondary-countdown-color: #F76A4A;
+    --finally-countdown-color: #316AF7;
+
+    /* Fonts: */
+
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Bebas Neue', cursive;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    min-width: 320px;
+    max-width: 500px;
+    height: 100vh;
+    margin: 0px auto;
+    padding: 1em;
+    background: url('./assets/background.png');
+    background-size: contain;
+}
+
+header{
+    margin: 0px, auto;
+}
+
+.header__welcome {
+    font-family: var(--secondary-font);
+    color: var(--primary-font-color);
+    font-size: 4.5rem;
+}
+
+.header__counter{
+    font-size: 2rem;
+    font-family: var(--secondary-font);
+    color: var(--primary-font-color);
+    text-align: center;
+}
+
+.header__counter p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header__counter--container{
+    width: auto;
+    padding: 5px;
+    font-size: 2.7rem;
+    color: var(--primary-countdown-color);
+    background-color: var(--primary-font-color);
+    border: 1px solid var(--primary-font-color);
+    border-radius: 5px;
+}
+
+.oneday--indicator{
+    color: #F76A4A;
+}
+
+.img__container{
+    width: 90%;
+    margin: 20px auto 0px;
+}
+
+.img__container video{
+    width: 100%;
+    height: auto;
+}
